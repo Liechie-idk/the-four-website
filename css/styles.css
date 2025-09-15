@@ -1,0 +1,23 @@
+header {
+    background-color: rgb(179, 0, 0);
+    color: white;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+footer {
+    background-color: rgb(255, 99, 99);
+    background-size: cover;
+}
+
+b {
+    font-size: large;
+    padding: 10px;
+}
+p {
+    padding: 10px;
+}
+h1.footer {
+    font-size: large;
+}
