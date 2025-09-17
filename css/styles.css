@@ -1,4 +1,29 @@
+<<<<<<< HEAD
 .navbar {
     margin: 0;
     padding: 0;
+=======
+header {
+    background-color: rgb(179, 0, 0);
+    color: white;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+footer {
+    background-color: rgb(255, 99, 99);
+    background-size: cover;
+}
+
+b {
+    font-size: large;
+    padding: 10px;
+}
+p {
+    padding: 10px;
+}
+h1.footer {
+    font-size: large;
+>>>>>>> a22ecd87bb866b53c09bed03893033869be47ee8
 }
