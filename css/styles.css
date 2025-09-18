@@ -17,7 +17,7 @@ footer {
 .foot {
     /* padding top essentially creates 
     empty space on the top to essentially make it so it isn't touching th border*/
-    padding-top: 10px;
+    padding-top: 50px;
     margin: 10px;
 }
 
@@ -46,7 +46,10 @@ img.logo {
 }
 
 .searchbar {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    height: 80px;
     background-color: gray;
-    background-size: auto;
-
 }
