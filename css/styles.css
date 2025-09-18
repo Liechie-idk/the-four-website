@@ -29,30 +29,20 @@ b {
 p {
     padding: 10px;
 }
-<<<<<<< HEAD
 
-h1.footer {
-    font-size: large;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0;
-    padding: 10px;
-}
-
-.pnav {
-    font-size: 24px;
-=======
 h1.title {
     font-size: 3em;
 }
+
 h1.footer {
     font-size: large;
 }
+
 img.logo {
     vertical-align: middle;
->>>>>>> c19f06a6b7df9647de6f2aca140ecd5c794c0881
+}
+
+.searchbar {
+    background-color: gray;
+    background-size: cover;
 }
