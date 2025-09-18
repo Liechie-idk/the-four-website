@@ -37,25 +37,18 @@ h1.title {
 h1.footer {
     font-size: large;
 }
-<<<<<<< HEAD
 
-img.logo {
-    vertical-align: middle;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.searchbar {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    color: white;
-    height: 80px;
-    background-color: gray;
-=======
 div.header {
     display: flex;
     align-items: center;
->>>>>>> e0ada0a49f39f1683d6efbe2c4d312c86059dfeb
+}
+
+.footText {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
 }
