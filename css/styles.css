@@ -37,6 +37,7 @@ h1.title {
 h1.footer {
     font-size: large;
 }
+<<<<<<< HEAD
 
 img.logo {
     vertical-align: middle;
@@ -52,4 +53,9 @@ img.logo {
     color: white;
     height: 80px;
     background-color: gray;
+=======
+div.header {
+    display: flex;
+    align-items: center;
+>>>>>>> e0ada0a49f39f1683d6efbe2c4d312c86059dfeb
 }
