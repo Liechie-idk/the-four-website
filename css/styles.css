@@ -40,9 +40,13 @@ h1.footer {
 
 img.logo {
     vertical-align: middle;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .searchbar {
     background-color: gray;
-    background-size: cover;
+    background-size: auto;
+
 }
