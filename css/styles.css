@@ -1,56 +1,32 @@
+/* Header Styling
+----------------------------------------------------*/
 header {
     background-color: rgb(179, 0, 0);
     color: white;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-}
-
-footer {
-    background-color: rgba(58, 46, 46, 0.418);
-    background-size: cover;
-}
-
-/* this is used to style the text inside the footer */
-.foot {
-    /* padding top essentially creates 
-    empty space on the top to essentially make it so it isn't touching th border*/
-    padding-top: 50px;
-    margin: 10px;
-}
-
-b {
-    font-size: large;
-    padding: 10px;
-}
-
-p {
-    padding: 10px;
-}
-
 h1.title {
-    font-size: 3em;
+    font-size: 2em;
+    margin-left: 10px;
 }
 
 h2.slogan {
+    font-size: 1.2em;
     margin-right: 50px;
-}
-
-h1.footer {
-    font-size: large;
 }
 
 div.main_header {
     display: flex;
     align-items: center;
-    margin-bottom: -40px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    padding-top: 10px;
 }
 
 div.header {
     display: flex;
     align-items: center;
+    margin-left: 20px;
 }
 
 a.page_link {
@@ -77,6 +53,33 @@ a.page_selected {
     margin-bottom: 0px;
     margin-left: 3px;
     font-size: 2em;
+}
+
+/* Body Styling
+----------------------------------------------------*/
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer Styling
+----------------------------------------------------*/
+footer {
+    background-color: rgb(184, 184, 184);
+    background-size: cover;
+}
+
+/* this is used to style the text inside the footer */
+.foot {
+    /* padding top essentially creates 
+    empty space on the top to essentially make it so it isn't touching th border*/
+    padding-top: 50px;
+    margin: 0px;
+}
+
+h1.footer {
+    font-size: large;
+}
 
 .footText {
     padding: 0px;
@@ -89,15 +92,14 @@ a {
 }
 
 .footer1 {
-    position: fixed;
     bottom: 0;
     left: 0;
-    width: 100vw;
     background-color: black;
-    /* padding: 5px; */
+    padding: 5px;
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .footer1 p {
