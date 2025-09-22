@@ -85,12 +85,12 @@ h1.footer {
     margin: 1px;
 }
 
-a {
+a.text_link {
     text-decoration: none;
     color: red;
 }
 
-a:hover {
+a.text_link:hover {
     text-decoration: underline;
 }
 
