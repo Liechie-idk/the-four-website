@@ -17,8 +17,8 @@ footer {
 .foot {
     /* padding top essentially creates 
     empty space on the top to essentially make it so it isn't touching th border*/
-    padding-top: 50px;
-    margin: 10px;
+    padding-top: 1px;
+    padding-bottom: 10px;
 }
 
 b {
@@ -81,12 +81,16 @@ a.page_selected {
 
 .footText {
     padding: 0px;
-    margin: 0px;
+    margin: 1px;
 }
 
 a {
     text-decoration: none;
     color: red;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .footer1 {
