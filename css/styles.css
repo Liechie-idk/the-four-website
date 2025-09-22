@@ -83,19 +83,19 @@ a.page_selected {
     padding: 0px;
     margin: 0px;
 }
-  
+
 a {
     text-decoration: none;
     color: red;
 }
 
 .footer1 {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     width: 100vw;
     background-color: black;
-    /* padding: 5px; */
+    padding: 5px;
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
