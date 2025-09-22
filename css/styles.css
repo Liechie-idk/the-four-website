@@ -34,6 +34,10 @@ h1.title {
     font-size: 3em;
 }
 
+h1.subtitle {
+    font-size: 30px;
+}
+
 h2.slogan {
     margin-right: 50px;
 }
@@ -108,4 +112,9 @@ a:hover {
 .footer1 p {
     font-size: 0.9rem;
     margin: 0;
+}
+.image {
+    width: auto;
+    height: auto;
+    align-items: center;
 }
