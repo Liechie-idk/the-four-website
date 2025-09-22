@@ -54,7 +54,6 @@ a.page_selected {
     margin-left: 3px;
     font-size: 2em;
 }
-
 /* Body Styling
 ----------------------------------------------------*/
 body {
@@ -83,12 +82,16 @@ h1.footer {
 
 .footText {
     padding: 0px;
-    margin: 0px;
+    margin: 1px;
 }
-  
+
 a {
     text-decoration: none;
     color: red;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .footer1 {
@@ -105,4 +108,7 @@ a {
 .footer1 p {
     font-size: 0.9rem;
     margin: 0;
+}
+
+.h1Schedule{
 }
