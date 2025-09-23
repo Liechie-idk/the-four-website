@@ -10,6 +10,10 @@ h1.title {
     margin-left: 10px;
 }
 
+h1.subtitle {
+    font-size: 30px;
+}
+
 h2.slogan {
     font-size: 1.2em;
     margin-right: 50px;
@@ -109,6 +113,10 @@ a.text_link:hover {
     font-size: 0.9rem;
     margin: 0;
 }
-
+.image {
+    width: auto;
+    height: auto;
+    align-items: center;
+}
 .h1Schedule{
 }
