@@ -5,41 +5,12 @@ header {
     color: white;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-}
-
-footer {
-    background-color: rgba(58, 46, 46, 0.418);
-    background-size: cover;
-}
-
-/* this is used to style the text inside the footer */
-.foot {
-    /* padding top essentially creates 
-    empty space on the top to essentially make it so it isn't touching th border*/
-    padding-top: 1px;
-    padding-bottom: 10px;
-}
-
-b {
-    font-size: large;
-    padding: 10px;
-}
-
-p {
-    padding: 10px;
-}
-
-
-h1.title {
+h1.header_title {
     font-size: 2em;
     margin-left: 10px;
 }
 
 h2.slogan {
-    margin-left: 10px;
     font-size: 1.2em;
     margin-right: 50px;
 }
@@ -83,12 +54,24 @@ a.page_selected {
     margin-left: 3px;
     font-size: 2em;
 }
-
 /* Body Styling
 ----------------------------------------------------*/
 body {
     padding: 0;
     margin: 0;
+}
+
+div.home_body {
+    font-size: 120%;
+    margin-left: 20px;
+}
+
+h1.body_title {
+    font-size: 1.5em;
+}
+
+p.body_text {
+    margin-bottom: 10px;
 }
 
 div.schedule_body {
@@ -122,10 +105,6 @@ h1.footer {
     font-size: large;
 }
 
-.logo {
-    margin-left: 10px;
-}
-
 .footText {
     padding: 0px;
     margin: 1px;
@@ -133,7 +112,7 @@ h1.footer {
 
 a.text_link {
     text-decoration: none;
-    color: rgb(235, 50, 50);
+    color: red;
 }
 
 a.text_link:hover {
@@ -145,7 +124,6 @@ a.text_link:hover {
     left: 0;
     background-color: black;
     padding: 5px;
-    margin: 0px;
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
@@ -154,6 +132,8 @@ a.text_link:hover {
 
 .footer1 p {
     font-size: 0.9rem;
+    margin: 0;
 }
 
-.h1Schedule {}
+.h1Schedule{
+}
