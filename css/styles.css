@@ -13,7 +13,6 @@ h1.header_title {
 h2.slogan {
     font-size: 1.2em;
     margin-right: 50px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 div.main_header {
@@ -98,8 +97,7 @@ footer {
 .foot {
     /* padding top essentially creates 
     empty space on the top to essentially make it so it isn't touching th border*/
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 50px;
     margin: 0px;
 }
 
@@ -129,7 +127,7 @@ a.text_link:hover {
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-    margin-left: -10px; /*Counteracts the left padding from the foot div class.*/
+
 }
 
 .footer1 p {
