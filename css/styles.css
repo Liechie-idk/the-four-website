@@ -8,18 +8,6 @@ body {
     margin: 0;
 }
 
-footer {
-    background-color: rgba(58, 46, 46, 0.418);
-    background-size: cover;
-}
-
-/* this is used to style the text inside the footer */
-.foot {
-    /* padding top essentially creates 
-    empty space on the top to essentially make it so it isn't touching th border*/
-    padding-top: 1px;
-    padding-bottom: 10px;
-}
 
 b {
     font-size: large;
@@ -111,3 +99,27 @@ a:hover {
 }
 
 .h1Schedule {}
+
+footer {
+    background-color: rgba(58, 46, 46, 0.7);
+    color: black;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between; /* pushes left & right apart */
+    padding: 20px;
+}
+
+.foot-left, .foot-right {
+    flex: 1; /* makes both sections share space */
+    margin: 0 20px;
+}
+
+.foot-right {
+    border-left: 2px solid #ccc; /* divider line between them */
+    padding-left: 20px;
+}
