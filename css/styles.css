@@ -23,6 +23,7 @@ h1.title {
 }
 
 h2.slogan {
+    margin-left: 10px;
     margin-right: 50px;
 }
 
@@ -67,6 +68,10 @@ a.page_selected {
     font-size: 2em;
 }
 
+.logo {
+    margin-left: 10px;
+}
+
 .footText {
     padding: 0px;
     margin: 1px;
@@ -74,7 +79,7 @@ a.page_selected {
 
 a {
     text-decoration: none;
-    color: red;
+    color: rgb(235, 50, 50);
 }
 
 a:hover {
@@ -110,16 +115,20 @@ footer {
 
 .foot {
     display: flex;
-    justify-content: space-between; /* pushes left & right apart */
+    justify-content: space-between;
+    /* pushes left & right apart */
     padding: 20px;
 }
 
-.foot-left, .foot-right {
-    flex: 1; /* makes both sections share space */
+.foot-left,
+.foot-right {
+    flex: 1;
+    /* makes both sections share space */
     margin: 0 20px;
 }
 
 .foot-right {
-    border-left: 2px solid #ccc; /* divider line between them */
+    border-left: 2px solid #ccc;
+    /* divider line between them */
     padding-left: 20px;
 }
