@@ -62,17 +62,18 @@ body {
     margin: 0;
 }
 
-div.home_body {
-    font-size: 120%;
+body div {
     margin-left: 20px;
 }
 
-h1.body_title {
-    font-size: 1.5em;
+h1.home_title {
+    font-size: 2em;
+    margin-bottom: -10px;
 }
 
-p.body_text {
+p.home_text {
     margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
 div.schedule_body {
@@ -86,6 +87,12 @@ div.schedule_body {
     padding-bottom: 10px;
     border-radius: 20px;
 }
+
+.login h1 {
+    font-size: 2em;
+}
+
+
 
 /* Footer Styling
 ----------------------------------------------------*/
@@ -135,7 +142,4 @@ a.text_link:hover {
 .footer1 p {
     font-size: 0.9rem;
     margin: 0;
-}
-
-.h1Schedule{
 }
