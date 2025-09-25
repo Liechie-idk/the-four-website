@@ -4,13 +4,13 @@ header {
     background-color: rgb(179, 0, 0);
     color: white;
 }
-
 h1.header_title {
     font-size: 2em;
     margin-left: 10px;
 }
 
 h2.slogan {
+    margin-left: 10px;
     font-size: 1.2em;
     margin-right: 50px;
     font-family: 'Times New Roman', Times, serif;
@@ -55,6 +55,7 @@ a.page_selected {
     margin-left: 3px;
     font-size: 2em;
 }
+
 /* Body Styling
 ----------------------------------------------------*/
 body {
@@ -107,6 +108,10 @@ h1.footer {
     font-size: large;
 }
 
+.logo {
+    margin-left: 10px;
+}
+
 .footText {
     padding: 0px;
     margin: 1px;
@@ -114,7 +119,7 @@ h1.footer {
 
 a.text_link {
     text-decoration: none;
-    color: red;
+    color: rgb(235, 50, 50);
 }
 
 a.text_link:hover {
@@ -126,6 +131,7 @@ a.text_link:hover {
     left: 0;
     background-color: black;
     padding: 5px;
+    margin: 0px;
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
@@ -134,8 +140,6 @@ a.text_link:hover {
 
 .footer1 p {
     font-size: 0.9rem;
-    margin: 0;
 }
 
-.h1Schedule{
-}
+.h1Schedule {}
