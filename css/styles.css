@@ -86,6 +86,30 @@ div.schedule_body {
     border-radius: 20px;
 }
 
+.login {
+    margin-left: 20px;
+}
+
+.login a {
+    background-color: rgb(219, 219, 219);
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.login p {
+    margin-left: 10px;
+    color: black;
+}
+
+.login img {
+    width: 5em;
+}
+
 /* Footer Styling
 ----------------------------------------------------*/
 footer {
@@ -133,7 +157,4 @@ a.text_link:hover {
 .footer1 p {
     font-size: 0.9rem;
     margin: 0;
-}
-
-.h1Schedule{
 }
