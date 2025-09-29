@@ -19,13 +19,14 @@ p {
     padding: 10px;
 }
 
-h1.title {
+/* merged: keep both selectors for flexibility */
+h1.title,
+h1.header_title {
     font-size: 2em;
     margin-left: 10px;
 }
 
 h2.slogan {
-    margin-left: 10px;
     font-size: 1.2em;
     margin-right: 50px;
 }
@@ -72,6 +73,19 @@ a.page_selected {
 
 /* Body Styling
 ----------------------------------------------------*/
+div.home_body {
+    font-size: 120%;
+    margin-left: 20px;
+}
+
+h1.body_title {
+    font-size: 1.5em;
+}
+
+p.body_text {
+    margin-bottom: 10px;
+}
+
 div.schedule_body {
     margin-left: 20px;
     text-align: center;
@@ -109,10 +123,6 @@ h1.footer {
     font-size: large;
 }
 
-.logo {
-    margin-left: 10px;
-}
-
 .footText {
     padding: 0px;
     margin: 1px;
@@ -120,7 +130,7 @@ h1.footer {
 
 a.text_link {
     text-decoration: none;
-    color: rgb(235, 50, 50);
+    color: red;
 }
 
 a.text_link:hover {
@@ -132,11 +142,11 @@ a.text_link:hover {
     left: 0;
     background-color: black;
     padding: 5px;
-    margin: 0px;
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
     font-size: 0.9rem;
+    margin: 0;
 }
 
 .h1Schedule {}
