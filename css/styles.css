@@ -26,6 +26,10 @@ h1.header_title {
     margin-left: 10px;
 }
 
+h1.subtitle {
+    font-size: 30px;
+}
+
 h2.slogan {
     font-size: 1.2em;
     margin-right: 50px;
@@ -149,6 +153,27 @@ a.text_link:hover {
     margin: 0;
 }
 
+.image {
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+
+
+a.semi_topBtn {
+    padding: 1px 10px;
+    border: 1px;
+    bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 218, 218);
+    text-decoration: none;
+    align-self: flex-end;
+    margin-bottom: 0px;
+    margin-left: 3px;
+    font-size: 2em;
+}
 .h1Schedule {}
 
 .foot-left,
