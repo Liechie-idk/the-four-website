@@ -5,7 +5,23 @@ header {
     color: white;
 }
 
-h1.title {
+body {
+    padding: 0;
+    margin: 0;
+}
+
+b {
+    font-size: large;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+/* merged: keep both selectors for flexibility */
+h1.title,
+h1.header_title {
     font-size: 2em;
     margin-left: 10px;
 }
@@ -58,18 +74,42 @@ a.page_selected {
     margin-left: 3px;
     font-size: 2em;
 }
+
 /* Body Styling
 ----------------------------------------------------*/
-body {
-    padding: 0;
-    margin: 0;
+div.home_body {
+    font-size: 120%;
+    margin-left: 20px;
+}
+
+h1.body_title {
+    font-size: 1.5em;
+}
+
+p.body_text {
+    margin-bottom: 10px;
+}
+
+div.schedule_body {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 150%;
+    background-color: rgb(235, 235, 235);
+    width: 30em;
+    margin: 20px auto 20px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
 }
 
 /* Footer Styling
 ----------------------------------------------------*/
 footer {
-    background-color: rgb(184, 184, 184);
-    background-size: cover;
+    background-color: rgba(58, 46, 46, 0.7);
+    color: black;
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
 
 /* this is used to style the text inside the footer */
@@ -78,6 +118,9 @@ footer {
     empty space on the top to essentially make it so it isn't touching th border*/
     padding-top: 50px;
     margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 h1.footer {
@@ -89,12 +132,12 @@ h1.footer {
     margin: 1px;
 }
 
-a {
+a.text_link {
     text-decoration: none;
     color: red;
 }
 
-a:hover {
+a.text_link:hover {
     text-decoration: underline;
 }
 
@@ -106,10 +149,6 @@ a:hover {
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-
-}
-
-.footer1 p {
     font-size: 0.9rem;
     margin: 0;
 }
@@ -120,8 +159,7 @@ a:hover {
     align-items: center;
 }
 
-.h1Schedule{
-}
+
 
 a.semi_topBtn {
     padding: 1px 10px;
@@ -135,4 +173,16 @@ a.semi_topBtn {
     margin-bottom: 0px;
     margin-left: 3px;
     font-size: 2em;
+}
+.h1Schedule {}
+
+.foot-left,
+.foot-right {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.foot-right {
+    border-left: 2px solid #ccc;
+    padding-left: 20px;
 }
