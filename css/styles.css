@@ -173,9 +173,6 @@ a.text_link:hover {
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
-
-=======
     font-size: 0.9rem;
     margin: 0;
 }
@@ -210,5 +207,4 @@ a.semi_topBtn {
 .foot-right {
     border-left: 2px solid #ccc;
     padding-left: 20px;
->>>>>>> 28c85114ce4fc894504c8f6eda5ff647dcd70ac8
 }
