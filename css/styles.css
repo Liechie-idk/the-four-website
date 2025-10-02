@@ -215,7 +215,7 @@ a.semi_topBtn {
 
 .hero-section {
     height: 100vh;
-    width: auto;
+    width: fit-content;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/example_image_school.jpg");
     background-position: center;
     /* background-repeat: no-repeat; */
