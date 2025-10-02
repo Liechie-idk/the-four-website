@@ -216,7 +216,8 @@ a.semi_topBtn {
 
 .hero-section {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100vh;
+    background-position: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: auto;
 }
