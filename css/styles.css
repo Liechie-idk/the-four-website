@@ -105,11 +105,16 @@ div.schedule_body {
 }
 
 .login {
-    margin-left: 20px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    background-color: #ccc;
+    margin-right: 50%;
 }
 
 .login a {
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(236, 236, 236);
     text-decoration: none;
     align-items: center;
     display: flex;
@@ -126,6 +131,10 @@ div.schedule_body {
 
 .login img {
     width: 5em;
+    border-radius: 10px;
+    outline-color: rgb(187, 187, 187);
+    outline-width: 1px;
+    outline-style: solid;
 }
 
 /* Footer Styling
@@ -199,7 +208,6 @@ a.semi_topBtn {
     margin-left: 3px;
     font-size: 2em;
 }
-.h1Schedule {}
 
 .foot-left,
 .foot-right {
