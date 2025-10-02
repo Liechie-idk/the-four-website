@@ -232,7 +232,8 @@ a.text_link:hover {
 .image {
     width: auto;
     height: auto;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a.semi_topBtn {
@@ -261,14 +262,9 @@ a.semi_topBtn {
 }
 
 .hero-section {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/example_image_school.jpg");
+    display: block;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: auto;
 }
