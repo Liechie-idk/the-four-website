@@ -110,7 +110,6 @@ div.schedule_body {
     padding-bottom: 10px;
     padding-top: 5px;
     background-color: #ccc;
-    margin-right: 50%;
 }
 
 .login a {
@@ -135,6 +134,47 @@ div.schedule_body {
     outline-color: rgb(187, 187, 187);
     outline-width: 1px;
     outline-style: solid;
+}
+
+div.events {
+    background-color: rgb(223, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.scroll_box {
+    margin-top: -20px;
+    display: flex;
+    overflow-x: scroll;
+    height: auto;
+    padding-top: 10px;
+    background-color: rgb(233, 233, 233);
+    align-items: center;
+    color: black;
+}
+
+div.scroll_box-item {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+div.scroll_box-item-date {
+    background-color: rgb(255, 87, 87);
+    height: 100px;
+    width: 100px;
+    font-size: 2.5em;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.scroll_box-item p {
+    font-size: 2em;
+    margin-top: -10px;
+    width: 200px;
 }
 
 /* Footer Styling
