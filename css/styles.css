@@ -231,3 +231,6 @@ a.semi_topBtn {
 .right-side_elememts {
     float: right;
 }
+.display {
+    display:inline-block;
+}
