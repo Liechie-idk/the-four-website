@@ -223,3 +223,21 @@ a.semi_topBtn {
     display: flex;
     justify-content: center;
 }
+
+.button {
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    background-color: red;
+
+}
+
+.button:hover {
+    background-color: rgb(161, 21, 21);
+    cursor: pointer;
+}
