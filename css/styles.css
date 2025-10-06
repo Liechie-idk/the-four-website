@@ -215,9 +215,12 @@ a.semi_topBtn {
 }
 
 .hero-section {
-    display: block;
-    background-position: center;
-    /* margin-left: auto;
-    margin-right: auto; */
+    background-image: url('assets/cleveland_1_courtyard_3.jpeg');
+    background-position: center center;
+    background-attachment: fixed;
     width: auto;
+}
+
+.hero-content {
+
 }
