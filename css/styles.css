@@ -214,13 +214,15 @@ a.semi_topBtn {
     padding-left: 20px;
 }
 
-.hero-section {
-    background-image: url('assets/cleveland_1_courtyard_3.jpeg');
-    background-position: center center;
-    background-attachment: fixed;
-    width: auto;
+.background_image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
 }
 
-.hero-content {
-
+.body_text {
+    padding: 20px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 20px;
+    font-size: 20px;
 }
