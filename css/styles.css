@@ -222,7 +222,12 @@ a.semi_topBtn {
 
 .body_text {
     padding: 20px;
+    margin-right: 48em;
     background-color: rgb(200, 200, 200);
     border-radius: 20px;
     font-size: 20px;
+}
+
+.right-side_elememts {
+    float: right;
 }
