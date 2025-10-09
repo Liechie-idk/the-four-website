@@ -220,17 +220,25 @@ a.semi_topBtn {
     background-position:  center;
 }
 
-.body_text {
+/* .body_text {
     padding: 20px;
     margin-right: 48em;
     background-color: rgb(200, 200, 200);
     border-radius: 20px;
     font-size: 20px;
+} */
+
+.left-side_display {
+    padding: 20px 20px 20px 20px;
+    margin-right: 45em;
+    background: rgb(200, 200, 200);
+    font-size: 20px;
 }
 
-.right-side_elememts {
+.right-side_display {
     float: right;
 }
+
 .display {
     display:inline-block;
 }
