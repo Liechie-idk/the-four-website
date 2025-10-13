@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width" />
     <title>The Four</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/load_events.js"></script>
 </head>
 
 <body>
@@ -25,7 +24,7 @@
         </div>
     </header>
 
-    <main class="home">
+    <body>
         <div class="home_body">
             <h1 class="home_title">Organization Info</h1>
             <p class="home_text">Cleveland is a STEM High School in Beacon Hill<br>
@@ -35,12 +34,8 @@
         </div>
         <div class="events">
             <h1 class="title">School Events  <b>(shift+scroll)</b></h1>
-            <div class="scroll_box">
-                <div class="scroll_box-item">
-                    <div class="scroll_box-item-date"> Oct <br> 08 </div>
-                    <p>Picture Re-Take  Day</p>
-                </div>
-                <button type="button" onclick="loadItems();">test</button>
+            <div class="scroll_box" id="scroll">
+                <script src="/js/load_events.js"></script>
             </div>
         </div>
         <div class="login">
@@ -70,7 +65,7 @@
                 </p>
             </a>
         </div>
-    </main>
+    </body>
 
     <footer>
         <div class="foot">
