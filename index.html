@@ -43,12 +43,10 @@
                     fetch('js/event_list.txt')
                     .then(response => response.text())
                     .then(textString => {
-                        // console.log(textString);
                         const list = textString.split('\n');
                         console.log(list.length);
                         for(var i = 0; i < (list.length/4); i++)
                         {
-                            
                             var input1 = list[(4*i)];
                             var input2 = list[(4*i)+1];
                             var input3 = list[(4*i)+2];
