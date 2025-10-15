@@ -1,3 +1,5 @@
+//This isn't actually used rn as code is in html
+
 const parentBox = document.getElementById("scroll");
 console.log(parentBox);
 var boxList = [];
