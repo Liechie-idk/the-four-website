@@ -263,10 +263,62 @@ a.semi_topBtn {
     padding-left: 20px;
 }
 
-.hero-section {
-    display: block;
-    background-position: center;
-    /* margin-left: auto;
-    margin-right: auto; */
-    width: auto;
+.background_image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+}
+
+.display {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-side_display {
+    padding: 20px;
+    width: 1030px;
+    height: 750px;
+    font-size: 20px;
+}
+
+#picture_in_display{
+    border-radius: 30px;
+}
+
+.right-side_display {
+    padding: 20px;
+    width: 500px;
+    height: 725px;
+    background-color: rgb(179, 0, 0);
+    border-radius: 30px;
+
+    /*Red rectangle encapsulates the different-colored small boxes*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 8em;
+}
+
+#icon_1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: blue;
+}
+
+#icon_2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: violet;
+}
+
+#icon_3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: greenyellow;
 }
