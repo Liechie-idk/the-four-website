@@ -269,17 +269,10 @@ a.semi_topBtn {
     background-position:  center;
 }
 
-/* .body_text {
-    padding: 20px;
-    margin-right: 48em;
-    background-color: rgb(200, 200, 200);
-    border-radius: 20px;
-    font-size: 20px;
-} */
-
 .display {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .left-side_display {
@@ -296,9 +289,11 @@ a.semi_topBtn {
 .right-side_display {
     padding: 20px;
     width: 500px;
-    height: 750px;
+    height: 725px;
     background-color: rgb(179, 0, 0);
     border-radius: 30px;
+
+    /*Red rectangle encapsulates the different-colored small boxes*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -310,17 +305,20 @@ a.semi_topBtn {
 #icon_1 {
     width: 150px;
     height: 150px;
+    border-radius: 30px;
     background-color: blue;
 }
 
 #icon_2 {
     width: 150px;
     height: 150px;
+    border-radius: 30px;
     background-color: violet;
 }
 
 #icon_3 {
     width: 150px;
     height: 150px;
+    border-radius: 30px;
     background-color: greenyellow;
 }
