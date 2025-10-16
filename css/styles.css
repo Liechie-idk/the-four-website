@@ -270,32 +270,35 @@ a.semi_topBtn {
 .background_image {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:  center;
+    background-position: center;
 }
 
 .display {
+    padding: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .left-side_display {
     padding: 20px;
     width: 1030px;
-    height: 750px;
+    height: 2060px;
     font-size: 20px;
+    background: rgb(218, 218, 218);
+    box-shadow: 5px 5px rgb(50, 50, 50);
 }
 
-#picture_in_display{
+#picture_in_display {
     border-radius: 30px;
 }
 
 .right-side_display {
     padding: 20px;
     width: 500px;
-    height: 725px;
-    background-color: rgb(179, 0, 0);
-    border-radius: 30px;
+    height: 2060px;
+    background-color: rgb(198, 198, 198);
+    box-shadow: 5px 5px rgb(50, 50, 50);
 
     /*Red rectangle encapsulates the different-colored small boxes*/
     display: flex;
