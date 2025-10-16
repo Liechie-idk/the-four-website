@@ -152,7 +152,7 @@ div.events {
     color: black;
 }
 
-div.scroll_box-item {
+.scroll_box-item {
     margin-left: 10px;
     margin-bottom: 10px;
     padding-left: 10px;
@@ -160,9 +160,11 @@ div.scroll_box-item {
     display: flex;
     align-items: center;
     background-color: white;
+    text-decoration: none;
+    color: black;
 }
 
-div.scroll_box-item-date {
+.scroll_box-item-date {
     background-color: rgb(255, 87, 87);
     height: 100px;
     width: 100px;
@@ -170,6 +172,8 @@ div.scroll_box-item-date {
     text-align: center;
     border-radius: 20px;
     margin-left: -10px;
+    text-decoration: none;
+    color: black;
 }
 
 .scroll_box-item p {
