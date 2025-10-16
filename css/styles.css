@@ -266,7 +266,7 @@ a.semi_topBtn {
 .background_image {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:  center;
+    background-position: center;
 }
 
 .display {
@@ -285,7 +285,7 @@ a.semi_topBtn {
     box-shadow: 5px 5px rgb(50, 50, 50);
 }
 
-#picture_in_display{
+#picture_in_display {
     border-radius: 30px;
 }
 
