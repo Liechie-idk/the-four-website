@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>The Four</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<header>
+    <div class="main_header">
+        <a href="index.html">
+            <img class="logo" src="assets/ClevelandHS-Logo.png" alt="Cleveland High School Logo">
+        </a>
+        <h1 class="title">Cleveland <br>High School</h1>
+    </div>
+    <div class="header">
+        <h2 class="slogan">We do different better</h2>
+        <a class="page_link" href="index.html">Home</a>
+        <a class="page_link" href="about.html">About</a>
+        <a class="page_selected" href="schedule.html">Schedule</a>
+    </div>
+
+</header>
+
+<body>
+    <div class="events_box" id="events">
+        <script>
+            const parentBox = document.getElementById("events");
+            console.log(parentBox);
+            var boxList = [];
+
+            fetch('js/event_list.txt')
+            .then(response => response.text())
+            .then(textString => {
+                const list = textString.split('\n');
+                console.log(list.length);
+                for(var i = 0; i < (list.length/4); i++)
+                {
+                    var input1 = list[(4*i)];
+                    var input2 = list[(4*i)+1];
+                    var input3 = list[(4*i)+2];
+
+                    var newBox = '<a class="event-item" id="' + input3 + '"> <div class="event-item-date"> ' + input1 + ' <br> ' + input2 +' </div> <p>' + input3 + '</p> </a>'
+
+                    parentBox.innerHTML += newBox;
+                    console.log(boxList);
+                }
+            })
+        </script>
+    </div>
+</body>
+
+<footer>
+    <div class="foot">
+        <div class="foot-left">
+            <h1>Cleveland High School</h1>
+            <p class="footText">5511 15th Ave. S</p>
+            <p class="footText">Seattle, WA 98108</p>
+            <a class="text_link" href="about.html">About Cleveland</a><br>
+            <a class="text_link" href="">Contact Us</a>
+        </div>
+
+        <div class="foot-right">
+            <h1>Follow Us</h1>
+            <a class="text_link" href="https://www.facebook.com/SeattlePublicSchools">
+                <p class="footText">Facebook</p>
+            </a>
+            <a class="text_link" href="https://www.instagram.com/seattlepublicschools/">
+                <p class="footText">Instagram</p>
+            </a>
+            <a class="text_link" href="https://twitter.com/seapubschools">
+                <p class="footText">Twitter</p>
+            </a>
+        </div>
+    </div>
+
+    <p class="footer1">© 2025 Seattle Public Schools. Created by The Four</p>
+</footer>
+
+</html>

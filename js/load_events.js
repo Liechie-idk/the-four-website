@@ -1,4 +1,4 @@
-//This isn't actually used rn as code is in html
+//This isn't actually used rn, as the code is in index.html
 
 const parentBox = document.getElementById("scroll");
 console.log(parentBox);
